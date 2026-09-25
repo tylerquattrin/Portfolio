@@ -1,0 +1,1104 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tyler Quattrin | Multiplatform journalist</title>
+  <meta name="description" content="Tyler Quattrin is a multiplatform journalist.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="canvas">
+
+  <!-- ===== SIDEBAR / HEADER ===== -->
+  <header id="header">
+
+    <button id="menuToggle" class="menu-toggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+
+    <div id="logo">
+      <h1 class="site-title"><a href="#top">Tyler Quattrin</a></h1>
+      <div class="logo-subtitle">Multiplatform journalist</div>
+    </div>
+
+    <div id="siteNav">
+      <nav id="mainNavigation" aria-label="Galleries">
+        <ul>
+          <li><a href="#home" data-target="home" class="active">Home</a></li>
+          <li><a href="#metro-surge" data-target="metro-surge">Operation Metro Surge Minneapolis</a></li>
+          <li><a href="#flanagan-primary" data-target="flanagan-primary">Peggy Flanagan Primary Night Party</a></li>
+          <li><a href="#encampment-sweep" data-target="encampment-sweep">St. Paul Encampment Sweep</a></li>
+          <li><a href="#pga-3m-open" data-target="pga-3m-open">PGA 3M Open 2025</a></li>
+          <li><a href="#spot-news" data-target="spot-news">Spot News/Events</a></li>
+          <li><a href="#people" data-target="people">People</a></li>
+        </ul>
+      </nav>
+
+      <nav id="secondaryNavigation" aria-label="Pages">
+        <ul>
+          <li><a href="#about" data-target="about">About &amp; Contact</a></li>
+          <li><a href="https://muckrack.com/tylerquattrin/portfolio" target="_blank" rel="noopener">Print/Web Clips</a></li>
+        </ul>
+      </nav>
+
+    </div>
+
+
+    <div class="social-links">
+      <a href="https://www.instagram.com/tylerquattrin.media/" aria-label="Instagram" target="_blank" rel="noopener">
+        <svg viewBox="15 15 34 34" width="21" height="21" aria-hidden="true">
+          <rect x="17" y="17" width="30" height="30" rx="8" fill="none" stroke="currentColor" stroke-width="2.7"/>
+          <circle cx="32" cy="32" r="7" fill="none" stroke="currentColor" stroke-width="2.7"/>
+          <circle cx="40" cy="24" r="1.8" fill="currentColor"/>
+        </svg>
+      </a>
+      <a href="https://www.linkedin.com/in/tylerquattrin" aria-label="LinkedIn" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" width="21" height="21" aria-hidden="true">
+          <path fill="currentColor" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14zM8.34 18.34v-8.5H5.5v8.5h2.84zM6.92 8.68a1.65 1.65 0 1 0 0-3.3 1.65 1.65 0 0 0 0 3.3zM18.5 18.34v-4.66c0-2.28-1.22-3.34-2.84-3.34-1.31 0-1.9.72-2.22 1.23V9.84H10.6c.04.8 0 8.5 0 8.5h2.84v-4.75c0-.25.02-.5.09-.69.2-.5.67-1.03 1.45-1.03 1.02 0 1.43.78 1.43 1.92v4.55h2.09z"/>
+        </svg>
+      </a>
+      <a href="https://x.com/tylerquattrin" aria-label="X (Twitter)" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true">
+          <path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+        </svg>
+      </a>
+    </div>
+
+  </header>
+
+  <!-- ===== MAIN: ONE CONTINUOUS PHOTO GRID ===== -->
+  <main id="page">
+    <div id="top"></div>
+
+    <!--
+      HOW TO EDIT:
+      Each tab in the sidebar opens its own grid below. Each <li> is one photo.
+      data-src      = the image file (they all live in the images folder)
+      data-caption  = the text shown when the photo is enlarged. Replace the
+                      [Caption for ...] placeholders with your real captions.
+                      Avoid straight double quotes (") inside a caption.
+      data-orientation="vertical" = marks an upright photo so the grid thumbnail
+                      crops it toward the top (faces) instead of the middle.
+      To add a photo, copy a whole <li>...</li> block into the right grid.
+      To remove one, delete its <li> block.
+    -->
+
+    <!-- ============ HOME (66 photos) ============ -->
+    <ul id="gallery-home" class="grid" data-gallery="home" aria-label="Home">
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-1.jpg" data-caption="Tens of thousands of protesters march through downtown Minneapolis on Friday, Jan. 23, 2026, despite temperatures reaching 20 degrees below zero, as part of a statewide general strike demanding an end to ICE operations in Minnesota.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-2.jpg" data-caption="Tens of thousands of protesters march through downtown Minneapolis on Friday, Jan. 23, 2026, despite temperatures reaching 20 degrees below zero, as part of a statewide general strike demanding an end to ICE operations in Minnesota.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-3.jpg" data-caption="Tens of thousands of protesters march through downtown Minneapolis on Friday, Jan. 23, 2026, despite temperatures reaching 20 degrees below zero, as part of a statewide general strike demanding an end to ICE operations in Minnesota.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-4.jpg" data-caption="A banner calling for an end to ICE operations hangs above demonstrators in downtown Minneapolis on Friday, Jan. 23, 2026, during a statewide general strike as temperatures near 20 degrees below zero.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-5.jpg" data-caption="North Minneapolis streets fill with tear gas as protesters and law enforcement officers clash after a federal officer shot a Venezuelan immigrant in the leg on Thursday, Jan. 15, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-6.jpg" data-caption="A law enforcement officer pepper-sprays protesters gathered outside the Bishop Henry Whipple Federal Building near Minneapolis on Sunday, Jan. 11, 2026, in the aftermath of the fatal shooting of Renee Nicole Good by an ICE agent four days earlier.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-7.jpg" data-caption="Law enforcement officers disperse a crowd making loud noises outside the Graduate Hotel, where protesters believed federal immigration agents were staying, just before midnight Tuesday, Jan. 13, 2026, in Minneapolis.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-8.jpg" data-caption="A man holds a sign while marching through downtown Minneapolis on Friday, Jan. 23, 2026, despite temperatures reaching 20 degrees below zero, as part of a statewide general strike demanding an end to ICE operations in Minnesota.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-9.jpg" data-caption="Law enforcement officers disperse a crowd making loud noises outside the Graduate Hotel, where protesters believed federal immigration agents were staying, just before midnight Tuesday, Jan. 13, 2026, in Minneapolis.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-10.jpg" data-caption="Minnesota Lt. Gov. Peggy Flanagan, center, steps on stage at First Avenue in Minneapolis after defeating U.S. Rep. Angie Craig in the DFL primary on Tuesday, Aug. 11, 2026. She is joined by her husband, Tom Weber, left, and her daughter, Siobhan, right.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-11.jpg" data-caption="A child stands next to a Peggy Flanagan campaign sign at the campaign&#x27;s election night watch party at First Avenue in Minneapolis after Flanagan defeated U.S. Rep. Angie Craig in the DFL primary on Tuesday, Aug. 11, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-12.jpg" data-caption="Minnesota Lt. Gov. Peggy Flanagan steps on stage at First Avenue in Minneapolis for a victory speech after defeating U.S. Rep. Angie Craig in the DFL primary on Tuesday, Aug. 11, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-13.jpg" data-caption="A man reacts to Minnesota Lt. Gov. Peggy Flanagan&#x27;s victory in the DFL primary on Tuesday, Aug. 11, 2026, at Flanagan&#x27;s campaign election night party at First Avenue in Minneapolis.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-14.jpg" data-caption="Minnesota Lt. Gov. Peggy Flanagan, center, steps on stage at First Avenue in Minneapolis after defeating U.S. Rep. Angie Craig in the DFL primary on Tuesday, Aug. 11, 2026. She is joined by her husband, Tom Weber, left, and her daughter, Siobhan, right.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-15.jpg" data-caption="People react to Minnesota Lt. Gov. Peggy Flanagan&#x27;s victory in the DFL primary on Tuesday, Aug. 11, 2026, at Flanagan&#x27;s campaign election night party at First Avenue in Minneapolis.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-16.jpg" data-caption="First National Bank Building owner Jamie Rand, left, looks up at the iconic “1st” sign during a relighting ceremony on the building&#x27;s rooftop in downtown St. Paul on Aug. 6, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-17.jpg" data-caption="Florida real estate investor Jamie Rand, who purchased the First National Bank Building in 2026, proposes a toast in the building&#x27;s lobby during a ceremony celebrating the relighting of the rooftop sign in downtown St. Paul on Aug. 6, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-18.jpg" data-caption="Fireworks go off above the First National Bank Building sign during a relighting ceremony on the building&#x27;s rooftop in downtown St. Paul on Aug. 6, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-19.jpg" data-caption="Madeline McCabe and her daughter, Billy McCabe, place flowers during a vigil for Dena Silcox, Nansi Fuentes Zambrano and Adam &quot;AJ&quot; Wilwerding, the victims of a triple homicide at the Davern Park Apartments in St. Paul on Tuesday, July 21, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-20.jpg" data-caption="Yumi Silcox holds Diana McMillen during a vigil for the victims of a triple homicide at the Davern Park Apartments in St. Paul on Tuesday, July 21, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-21.jpg" data-caption="Friends, family and neighbors gather for a vigil for the victims of a triple homicide at the Davern Park Apartments in St. Paul on Tuesday, July 21, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-22.jpg" data-caption="The &quot;Working Across the Divide&quot; panel was held at Van Munching Hall at the University of Maryland on April 21, 2026, and sparked protests outside the building.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-23.jpg" data-caption="U.S. Rep. Ilhan Omar, D-Minn., speaks to a crowd about President Donald Trump&#x27;s actions on immigration and labor in Lafayette Park in Washington, D.C., during the May Day Strong Coalition rally on Thursday, May 1, 2025.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-24.jpg" data-caption="Conservative influencers David Khait, left, and Cam Higby, right, debate University of Maryland students outside McKeldin Library on Oct. 1, 2025.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-25.jpg" data-caption="A boy holds a protest sign while gathering on Route 1 to participate in the &quot;No Kings&quot; protest on March 29, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-26.jpg" data-caption="A Ramsey County sheriff&#x27;s deputy removes Meredith Aby-Keirstead, left, director of the Minneapolis-based Women Against Military Madness, from St. Paul City Hall on July 13, 2026, for protesting a city contract with an Israeli cybersecurity company that provides services to St. Paul Regional Water Services.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-27.jpg" data-caption="Former House Speaker Nancy Pelosi speaks at The Hotel at the University of Maryland to commemorate Women&#x27;s Equality Day on Sept. 12, 2025.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-28.jpg" data-caption="A demonstrator holds up a middle-finger-shaped sign in front of the Washington Monument during a protest against the Trump administration on Saturday, April 5, 2025, in Washington, D.C.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-29.jpg" data-caption="Protesters gather in Lafayette Park in Washington, D.C., during the May Day Strong Coalition rally on Thursday, May 1, 2025.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-30.jpg" data-caption="Demonstrators gather on the National Mall during a protest against the Trump administration on Saturday, April 5, 2025, in Washington, D.C.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-31.jpg" data-caption="Kurt Kitayama holds up his ball after sinking his final putt on the 18th green to win the 2025 3M Open at TPC Twin Cities on Sunday, July 27, 2025. Kitayama finished at 23-under 261 as his caddie and brother, Daniel Kitayama, replaces the flagstick.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-32.jpg" data-caption="Kurt Kitayama holds up his trophy after winning the 2025 3M Open at TPC Twin Cities on Sunday, July 27, 2025.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-33.jpg" data-caption="Jake Knapp tees off at the 2025 3M Open on Sunday, July 27, 2025.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-34.jpg" data-caption="Akshay Bhatia heads to the 16th hole at the 2025 3M Open on Sunday, July 27, 2025.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-35.jpg" data-caption="Rickie Fowler walks past a young fan dressed in Fowler&#x27;s signature orange outfit at the 2025 3M Open on Sunday, July 27, 2025.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-36.jpg" data-caption="Maryland&#x27;s Brayden Martin, left, and Liam Willson, right, prepare to bat during a home game against Nebraska on Friday, April 25, 2025, at Bob &quot;Turtle&quot; Smith Stadium in College Park, Md.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-37.jpg" data-caption="Duck Donuts employees prepare the first orders during the College Park location&#x27;s grand opening on Sept. 19, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-38.jpg" data-caption="Brendan Baker jumps into the waters of the Highland Park Aquatic Center in St. Paul as temperatures near 90 degrees on June 29, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-39.jpg" data-caption="An Xcel Energy lineworker competes in the Northstar Lineman&#x27;s Rodeo on June 20, 2025, at Xcel Energy&#x27;s Training Center in Hugo, Minn.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-40.jpg" data-caption="People skateboard on Freedom Plaza in downtown Washington, D.C., on Saturday, March 8, 2025. The plaza has been a central spot for skateboarders since its opening in 1980.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-41.jpg" data-caption="Mahtomedi High School senior Keira Redpath trains at Larkin Dance Studio in Maplewood, Minn., where she has trained since age 3, days before moving to the University of Southern California to join the highly selective Glorya Kaufman School of Dance.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-42.jpg" data-caption="Mahtomedi High School senior Keira Redpath trains at Larkin Dance Studio in Maplewood, Minn., where she has trained since age 3, days before moving to the University of Southern California to join the highly selective Glorya Kaufman School of Dance.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-43.jpg" data-caption="Ivan Martinez, owner of By Mr. Martinez, a custom tailoring shop in downtown St. Paul, sits in his shop on June 30, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-44.jpg" data-caption="University of Maryland freshman architecture major Owen Vento practices his acoustic bass guitar in his dorm room on Feb. 13, 2025.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-45.jpg" data-caption="Owen Vento plays his bass guitar in the School of Architecture, Planning and Preservation building during sunrise on Feb. 13, 2025.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-46.jpg" data-caption="The sun rises over the Tidal Basin in Washington, D.C., during peak bloom of the cherry blossoms on March 19, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-47.jpg" data-caption="A woman holds her dog as the sun rises over the Tidal Basin in Washington, D.C., during peak bloom of the cherry blossoms on March 19, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-48.jpg" data-caption="People play tennis at Rose Park in Washington, D.C., on April 5, 2025.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-49.jpg" data-caption="A person walks beneath a U.S. flag in the lobby of the IDS Center in Minneapolis on Tuesday, March 19, 2024.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-50.jpg" data-caption="The Minneapolis skyline is seen at night during I-35W construction on Saturday, May 29, 2021.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-51.jpg" data-caption="The IDS Center skyscraper stands in downtown Minneapolis on Tuesday, March 19, 2024.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-52.jpg" data-caption="A Napoleon Bonaparte statue in front of a Georgetown residence on Saturday, April 5, 2025.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-53.jpg" data-caption="The &quot;Rockman&quot; sculpture outside the Hennepin County Government Center in Minneapolis on March 19, 2024.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-54.jpg" data-caption="Ben&#x27;s Chili Bowl in Washington, D.C.&#x27;s U Street neighborhood at night on Friday, Feb. 21, 2025.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-55.jpg" data-caption="A child tries to eat a cherry blossom tree petal during peak bloom of the National Cherry Blossom Festival in Washington, D.C., on Saturday, March 29, 2025.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-56.jpg" data-caption="A mother wipes her son&#x27;s nose during peak bloom of the National Cherry Blossom Festival in Washington, D.C., on Saturday, March 29, 2025.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-57.jpg" data-caption="Buddhist monks stand near the Franklin Delano Roosevelt Memorial in Washington, D.C., during peak bloom of the National Cherry Blossom Festival on Saturday, March 29, 2025.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-58.jpg" data-caption="Two people stand in front of the Tidal Basin in Washington, D.C., during peak bloom of the cherry blossoms on March 19, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-59.jpg" data-caption="A man performs on the street in Georgetown on Saturday, April 5, 2025.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-60.jpg" data-caption="A couple stands against the Washington Monument, facing away from the sunset and looking toward a child jumping on ground lights on Saturday, March 8, 2025.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-61.jpg" data-caption="A man who identified himself as Wolf is escorted out of the Pig&#x27;s Eye encampment by St. Paul Department of Safety and Inspections officials during city sweeps of the encampment on Aug. 5, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-62.jpg" data-caption="Natalia Provost holds a Dr Pepper at the Pig&#x27;s Eye Park encampment in St. Paul on July 30, 2026. She had been living there for more than a year. Through working with a case manager, Provost secured an apartment in St. Paul and expected to move in about two weeks after the encampment was cleared on Aug. 5. Until then, she was unsure where she would live.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-63.jpg" data-caption="Mike Yang, a resident of the Pig&#x27;s Eye encampment, stands on his truck while helping other residents load their belongings bound for the Randolph encampment.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-64.jpg" data-caption="A protester smashes an object against the windshield of a skid steer loader as city crews work to clear the Pig&#x27;s Eye encampment in St. Paul. Shortly afterward, the loader turns around and is not seen again as residents continue moving their belongings.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-65.jpg" data-caption="From left, Adam K., Samie Lund, Michael &quot;Pops&quot; Ivory and Isaac Thomas sit at their space at the Pig&#x27;s Eye encampment in St. Paul on Aug. 4, 2026, one day before the city&#x27;s scheduled sweep to clear the area.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/home-66.jpg" data-caption="St. Paul Department of Safety and Inspections officials are followed by protesters and members of the media after attempting to enter the encampment on Aug. 5, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+    </ul>
+
+    <!-- ============ OPERATION METRO SURGE MINNEAPOLIS (27 photos) ============ -->
+    <ul id="gallery-metro-surge" class="grid" data-gallery="metro-surge" aria-label="Operation Metro Surge Minneapolis" hidden>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/metro-1.jpg" data-caption="Tens of thousands of protesters march through downtown Minneapolis on Friday, Jan. 23, 2026, despite temperatures reaching 20 degrees below zero, as part of a statewide general strike demanding an end to ICE operations in Minnesota.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/metro-2.jpg" data-caption="Protesters carry the Minnesota state flag while marching through downtown Minneapolis on Friday, Jan. 23, 2026, despite temperatures reaching 20 degrees below zero, as part of a statewide general strike demanding an end to ICE operations in Minnesota.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/metro-3.jpg" data-caption="Protesters march in front of a mural paying tribute to Bob Dylan on Friday, Jan. 23, 2026, despite temperatures reaching 20 degrees below zero, as part of a statewide general strike demanding an end to ICE operations in Minnesota.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/metro-4.jpg" data-caption="A man holds a sign while marching through downtown Minneapolis on Friday, Jan. 23, 2026, despite temperatures reaching 20 degrees below zero, as part of a statewide general strike demanding an end to ICE operations in Minnesota.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/metro-5.jpg" data-caption="A banner calling for an end to ICE operations hangs above demonstrators in downtown Minneapolis on Friday, Jan. 23, 2026, during a statewide general strike as temperatures near 20 degrees below zero.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/metro-6.jpg" data-caption="Protesters arrive at Target Center in downtown Minneapolis on Friday, Jan. 23, 2026, during a statewide general strike demanding an end to ICE operations in Minnesota.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/metro-7.jpg" data-caption="People hand out free sambusas to protesters marching through downtown Minneapolis on Friday, Jan. 23, 2026, during a statewide general strike demanding an end to ICE operations in Minnesota.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/metro-8.jpg" data-caption="Tens of thousands of protesters march through downtown Minneapolis on Friday, Jan. 23, 2026, despite temperatures reaching 20 degrees below zero, as part of a statewide general strike demanding an end to ICE operations in Minnesota.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/metro-9.jpg" data-caption="Protesters hold signs outside the Bishop Henry Whipple Federal Building near Minneapolis on Sunday, Jan. 11, 2026, in the aftermath of the fatal shooting of Renee Nicole Good by an ICE agent four days earlier.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/metro-10.jpg" data-caption="A law enforcement officer pepper-sprays protesters gathered outside the Bishop Henry Whipple Federal Building near Minneapolis on Sunday, Jan. 11, 2026, in the aftermath of the fatal shooting of Renee Nicole Good by an ICE agent four days earlier.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/metro-11.jpg" data-caption="A protester holds up their middle finger outside the Bishop Henry Whipple Federal Building near Minneapolis on Sunday, Jan. 11, 2026, in the aftermath of the fatal shooting of Renee Nicole Good by an ICE agent four days earlier.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/metro-12.jpg" data-caption="Protesters hold signs outside the Bishop Henry Whipple Federal Building near Minneapolis on Sunday, Jan. 11, 2026, in the aftermath of the fatal shooting of Renee Nicole Good by an ICE agent four days earlier.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/metro-13.jpg" data-caption="Federal officers block a street in North Minneapolis after a federal officer shot a Venezuelan immigrant in the leg on Thursday, Jan. 15, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/metro-14.jpg" data-caption="North Minneapolis streets fill with tear gas as protesters and law enforcement officers clash after a federal officer shot a Venezuelan immigrant in the leg on Thursday, Jan. 15, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/metro-15.jpg" data-caption="A man walking a bike shouts, asking if anyone needs first aid or water, as North Minneapolis streets fill with tear gas while protesters and law enforcement officers clash after a federal officer shot a Venezuelan immigrant in the leg on Thursday, Jan. 15, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/metro-16.jpg" data-caption="Law enforcement blocks an intersection in North Minneapolis as protesters gather after a federal officer shot a Venezuelan immigrant in the leg on Thursday, Jan. 15, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/metro-17.jpg" data-caption="Law enforcement blocks an intersection in North Minneapolis after a federal officer shot a Venezuelan immigrant in the leg on Thursday, Jan. 15, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/metro-18.jpg" data-caption="Law enforcement officers disperse a crowd making loud noises outside the Graduate Hotel, where protesters believed federal immigration agents were staying, just before midnight Tuesday, Jan. 13, 2026, in Minneapolis.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/metro-19.jpg" data-caption="Law enforcement officers disperse a crowd making loud noises outside the Graduate Hotel, where protesters believed federal immigration agents were staying, just before midnight Tuesday, Jan. 13, 2026, in Minneapolis.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/metro-20.jpg" data-caption="Law enforcement officers disperse a crowd making loud noises outside the Graduate Hotel, where protesters believed federal immigration agents were staying, just before midnight Tuesday, Jan. 13, 2026, in Minneapolis.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/metro-21.jpg" data-caption="Law enforcement officers disperse a crowd making loud noises outside the Graduate Hotel, where protesters believed federal immigration agents were staying, just before midnight Tuesday, Jan. 13, 2026, in Minneapolis.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/metro-22.jpg" data-caption="Protesters make loud noises outside the Graduate Hotel, where they believed federal immigration agents were staying, just before midnight Tuesday, Jan. 13, 2026, in Minneapolis.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/metro-23.jpg" data-caption="Law enforcement officers prepare to disperse a crowd making loud noises outside the Graduate Hotel, where protesters believed federal immigration agents were staying, just before midnight Tuesday, Jan. 13, 2026, in Minneapolis.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/metro-24.jpg" data-caption="A masked person vandalizes the Graduate Hotel in Minneapolis, where protesters believed federal immigration agents were staying, just before midnight Tuesday, Jan. 13, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/metro-25.jpg" data-caption="Law enforcement officers disperse a crowd making loud noises outside the Graduate Hotel, where protesters believed federal immigration agents were staying, just before midnight Tuesday, Jan. 13, 2026, in Minneapolis.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/metro-26.jpg" data-caption="Protesters make loud noises outside the Graduate Hotel, where they believed federal immigration agents were staying, just before midnight Tuesday, Jan. 13, 2026, in Minneapolis.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images/metro-27.jpg" data-caption="Law enforcement and protesters clash outside the Graduate Hotel, where protesters believed federal immigration agents were staying, just before midnight Tuesday, Jan. 13, 2026, in Minneapolis.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+    </ul>
+
+    <!-- ============ PEGGY FLANAGAN PRIMARY NIGHT PARTY (14 photos) ============ -->
+    <ul id="gallery-flanagan-primary" class="grid" data-gallery="flanagan-primary" aria-label="Peggy Flanagan Primary Night Party" hidden>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/peggy-1.jpg" data-caption="Minnesota Lt. Gov. Peggy Flanagan, center, steps on stage at First Avenue in Minneapolis after defeating U.S. Rep. Angie Craig in the DFL primary on Tuesday, Aug. 11, 2026. She is joined by her husband, Tom Weber, left, and her daughter, Siobhan, right.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/peggy-2.jpg" data-caption="People react to Minnesota Lt. Gov. Peggy Flanagan&#x27;s victory in the DFL primary on Tuesday, Aug. 11, 2026, at Flanagan&#x27;s campaign election night party at First Avenue in Minneapolis.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/peggy-3.jpg" data-caption="Minnesota Lt. Gov. Peggy Flanagan, center, steps on stage at First Avenue in Minneapolis after defeating U.S. Rep. Angie Craig in the DFL primary on Tuesday, Aug. 11, 2026. She is joined by her husband, Tom Weber, left, and her daughter, Siobhan, right.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/peggy-4.jpg" data-caption="A man reacts to Minnesota Lt. Gov. Peggy Flanagan&#x27;s victory in the DFL primary on Tuesday, Aug. 11, 2026, at Flanagan&#x27;s campaign election night party at First Avenue in Minneapolis.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/peggy-5.jpg" data-caption="A child stands next to a Peggy Flanagan campaign sign at the campaign&#x27;s election night watch party at First Avenue in Minneapolis after Flanagan defeated U.S. Rep. Angie Craig in the DFL primary on Tuesday, Aug. 11, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/peggy-6.jpg" data-caption="A man reacts to Minnesota Lt. Gov. Peggy Flanagan&#x27;s victory in the DFL primary on Tuesday, Aug. 11, 2026, at Flanagan&#x27;s campaign election night party at First Avenue in Minneapolis.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/peggy-7.jpg" data-caption="People react to Minnesota Lt. Gov. Peggy Flanagan&#x27;s victory in the DFL primary on Tuesday, Aug. 11, 2026, at Flanagan&#x27;s campaign election night party at First Avenue in Minneapolis.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/peggy-8.jpg" data-caption="Minnesota Lt. Gov. Peggy Flanagan steps on stage at First Avenue in Minneapolis for a victory speech after defeating U.S. Rep. Angie Craig in the DFL primary on Tuesday, Aug. 11, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/peggy-9.jpg" data-caption="People react to Minnesota Lt. Gov. Peggy Flanagan&#x27;s victory in the DFL primary on Tuesday, Aug. 11, 2026, at Flanagan&#x27;s campaign election night party at First Avenue in Minneapolis.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/peggy-10.jpg" data-caption="Minnesota Lt. Gov. Peggy Flanagan, center, steps on stage at First Avenue in Minneapolis after defeating U.S. Rep. Angie Craig in the DFL primary on Tuesday, Aug. 11, 2026. She smiles at her daughter, Siobhan, right.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/peggy-11.jpg" data-caption="Minnesota Lt. Gov. Peggy Flanagan gives a victory speech at First Avenue in Minneapolis after defeating U.S. Rep. Angie Craig in the DFL primary on Tuesday, Aug. 11, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/peggy-12.jpg" data-caption="Minnesota Lt. Gov. Peggy Flanagan gives a victory speech at First Avenue in Minneapolis after defeating U.S. Rep. Angie Craig in the DFL primary on Tuesday, Aug. 11, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/peggy-13.jpg" data-orientation="vertical" data-caption="A man wearing political pins attends Peggy Flanagan&#x27;s campaign primary election night party at First Avenue in Minneapolis on Tuesday, Aug. 11, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/peggy-14.jpg" data-caption="A person holding a Peggy Flanagan campaign sign walks towards the campaign&#x27;s primary election night watch party at First Avenue in Minneapolis on Tuesday, Aug. 11, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+    </ul>
+
+    <!-- ============ ST. PAUL ENCAMPMENT SWEEP (19 photos) ============ -->
+    <ul id="gallery-encampment-sweep" class="grid" data-gallery="encampment-sweep" aria-label="St. Paul Encampment Sweep" hidden>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/pig-1.jpg" data-caption="A man who identified himself as Wolf is escorted out of the Pig&#x27;s Eye encampment by St. Paul Department of Safety and Inspections officials during city sweeps of the encampment on Aug. 5, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/pig-2.jpg" data-caption="Volunteer Drew Harmon helps move residents&#x27; belongings, while a pile accumulates behind a bus operated by Veterans for Peace, which the organization uses to transport residents and their possessions.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/pig-3.jpg" data-caption="Mike Yang, a resident of the Pig&#x27;s Eye encampment, stands on his truck while helping other residents load their belongings bound for the Randolph encampment.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/pig-4.jpg" data-caption="Natalia Provost holds a Dr Pepper at the Pig&#x27;s Eye Park encampment in St. Paul on July 30, 2026. She had been living there for more than a year. Through working with a case manager, Provost secured an apartment in St. Paul and expected to move in about two weeks after the encampment was cleared on Aug. 5. Until then, she was unsure where she would live.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/pig-5.jpg" data-caption="From left, Adam K., Samie Lund, Michael &quot;Pops&quot; Ivory and Isaac Thomas sit at their space at the Pig&#x27;s Eye encampment in St. Paul on Aug. 4, 2026, one day before the city&#x27;s scheduled sweep to clear the area.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/pig-6.jpg" data-caption="Nicholas Sterry, a former resident of the Pig&#x27;s Eye encampment, stands in front of his car at the encampment&#x27;s entrance in St. Paul on Aug. 4, 2026, one day before the city&#x27;s scheduled sweep. He plans to use the vehicle to help move residents and their belongings to other encampments in the city.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/pig-7.jpg" data-caption="A protester smashes an object against the windshield of a skid steer loader as city crews work to clear the Pig&#x27;s Eye encampment in St. Paul. Shortly afterward, the loader turns around and is not seen again as residents continue moving their belongings.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/pig-8.jpg" data-caption="St. Paul Department of Safety and Inspections officials are followed by protesters and members of the media after attempting to enter the encampment on Aug. 5, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/pig-9.jpg" data-caption="Protesters gather around a skid steer loader as city crews work to clear the Pig&#x27;s Eye encampment in St. Paul. Shortly afterward, it turned around and wasn&#x27;t seen again while residents continued moving their belongings.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/pig-10.jpg" data-caption="Volunteers help residents of the Pig&#x27;s Eye encampment in St. Paul load their belongings in a car, bound for the Randolph encampment.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/pig-11.jpg" data-caption="St. Paul DSI officials clash with protesters after attempting to enter the Pig&#x27;s Eye encampment during a city sweep.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/pig-12.jpg" data-caption="Gary Lusso, a frequent volunteer at the Pig&#x27;s Eye encampment, wears a T-shirt he designed with ChatGPT depicting the city and the encampment.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/pig-13.jpg" data-caption="The Pig&#x27;s Eye encampment in St. Paul on Aug. 4, 2026, one day before the city&#x27;s scheduled sweep to clear the area.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/pig-14.jpg" data-caption="Ramone Scarborough moves his belongings from the Pig&#x27;s Eye encampment to the side of Warner Road in St. Paul on Aug. 4, 2026, one day before the city&#x27;s scheduled sweep.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/pig-15.jpg" data-caption="Volunteers help move residents&#x27; belongings, while a pile accumulates behind a bus operated by Veterans for Peace, which the organization uses to transport residents and their possessions.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/pig-16.jpg" data-caption="“Man” sets up his new space at the Randolph encampment on Aug. 5, after moving from Pig&#x27;s Eye earlier in the day. While he was worried about the move, he said he ended up liking the new spot.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/pig-17.jpg" data-caption="“Man” sets up his new space at the Randolph encampment on Aug. 5, after moving from Pig&#x27;s Eye earlier in the day. While he was worried about the move, he said he ended up liking the new spot.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/pig-18.jpg" data-caption="Michelle Buchly and Shawn Nelson, residents of the Pig&#x27;s Eye Park encampment in St. Paul, wash their tent in an area of the park known to many residents as &quot;the Oasis&quot; on July 30, 2026. The area has a cool breeze and a stream that residents use to wash clothes, bathe and collect drinking water.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/pig-19.jpg" data-caption="A man who introduced himself as D helps move belongings from a resident&#x27;s camp during a city sweep of the Pig&#x27;s Eye encampment Aug. 5, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+    </ul>
+
+    <!-- ============ SPOT NEWS/EVENTS (21 photos) ============ -->
+    <ul id="gallery-spot-news" class="grid" data-gallery="spot-news" aria-label="Spot News/Events" hidden>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/news-1.jpg" data-caption="Friends, family and neighbors gather for a vigil for the victims of a triple homicide at the Davern Park Apartments in St. Paul on Tuesday, July 21, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/news-2.jpg" data-caption="Yumi Silcox holds Diana McMillen during a vigil for the victims of a triple homicide at the Davern Park Apartments in St. Paul on Tuesday, July 21, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/news-3.jpg" data-caption="Madeline McCabe and her daughter, Billy McCabe, place flowers during a vigil for Dena Silcox, Nansi Fuentes Zambrano and Adam &quot;AJ&quot; Wilwerding, the victims of a triple homicide at the Davern Park Apartments in St. Paul on Tuesday, July 21, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/news-4.jpg" data-caption="Fireworks go off above the First National Bank Building sign during a relighting ceremony on the building&#x27;s rooftop in downtown St. Paul on Aug. 6, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/news-5.jpg" data-caption="First National Bank Building owner Jamie Rand, left, looks up at the iconic “1st” sign during a relighting ceremony on the building&#x27;s rooftop in downtown St. Paul on Aug. 6, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/news-6.jpg" data-caption="Florida real estate investor Jamie Rand, who purchased the First National Bank Building in 2026, proposes a toast in the building&#x27;s lobby during a ceremony celebrating the relighting of the rooftop sign in downtown St. Paul on Aug. 6, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/news-7.jpg" data-caption="A Ramsey County sheriff&#x27;s deputy removes Meredith Aby-Keirstead, left, director of the Minneapolis-based Women Against Military Madness, from St. Paul City Hall on July 13, 2026, for protesting a city contract with an Israeli cybersecurity company that provides services to St. Paul Regional Water Services.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/news-8.jpg" data-caption="The &quot;Working Across the Divide&quot; panel was held at Van Munching Hall at the University of Maryland on April 21, 2026, and sparked protests outside the building.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/news-9.jpg" data-caption="An attorney presents oral arguments before the Minnesota Supreme Court on Monday, Feb. 5, 2024, in the case of Janine Tea vs. Ramsey County, involving a workers&#x27; compensation dispute over PTSD benefits.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/news-10.jpg" data-caption="Allyson Kane, who works for a landscaping company, waters a flower bed lining the sidewalk on Ford Parkway in St. Paul on Monday, July 13, 2026 as temperatures neared 90 degrees.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/news-11.jpg" data-caption="Duck Donuts employees prepare the first orders during the College Park location&#x27;s grand opening on Sept. 19, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/news-12.jpg" data-caption="Brendan Baker jumps into the waters of the Highland Park Aquatic Center in St. Paul as temperatures near 90 degrees on June 29, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/news-13.jpg" data-caption="Judges watch lineworkers compete in the Northstar Lineman&#x27;s Rodeo on June 20, 2025, at Xcel Energy&#x27;s Training Center in Hugo, Minn.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/news-14.jpg" data-caption="An Xcel Energy lineworker competes in the Northstar Lineman&#x27;s Rodeo on June 20, 2025, at Xcel Energy&#x27;s Training Center in Hugo, Minn.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/news-15.jpg" data-caption="Local artist Seitu Jones, left, removes the cover from a monument honoring pioneering St. Paul firefighters William and Alfred Godette during an unveiling ceremony Friday, June 12, 2026, at St. Paul Fire Department headquarters. Rollin Godette II, the brothers&#x27; great-great-nephew, stands at right.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/news-16.jpg" data-caption="Former House Speaker Nancy Pelosi speaks at The Hotel at the University of Maryland to commemorate Women&#x27;s Equality Day on Sept. 12, 2025.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/news-17.jpg" data-caption="U.S. Rep. Ilhan Omar, D-Minn., speaks to a crowd about President Donald Trump&#x27;s actions on immigration and labor in Lafayette Park in Washington, D.C., during the May Day Strong Coalition rally on Thursday, May 1, 2025.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/news-18.jpg" data-caption="Conservative influencers David Khait, left, and Cam Higby, right, debate University of Maryland students outside McKeldin Library on Oct. 1, 2025.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/news-19.jpg" data-caption="People participate in making crafts during a Lunar New Year celebration at College Park City Hall on Feb. 21, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/news-20.jpg" data-caption="Lunar New Year celebrations commence at College Park City Hall on Feb. 21, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/news-21.jpg" data-caption="Children make origami during a Lunar New Year celebration at College Park City Hall on Feb. 21, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+    </ul>
+
+    <!-- ============ PGA 3M OPEN 2025 (12 photos) ============ -->
+    <ul id="gallery-pga-3m-open" class="grid" data-gallery="pga-3m-open" aria-label="PGA 3M Open 2025" hidden>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/3m-1.jpg" data-caption="Kurt Kitayama holds up his ball after sinking his final putt on the 18th green to win the 2025 3M Open at TPC Twin Cities on Sunday, July 27, 2025. Kitayama finished at 23-under 261 as his caddie and brother, Daniel Kitayama, replaces the flagstick.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/3m-2.jpg" data-caption="Kurt Kitayama kisses his trophy after winning the 2025 3M Open at TPC Twin Cities on Sunday, July 27, 2025.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/3m-3.jpg" data-caption="Kurt Kitayama holds up his trophy after winning the 2025 3M Open at TPC Twin Cities on Sunday, July 27, 2025.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/3m-4.jpg" data-caption="Akshay Bhatia heads to the 16th hole at the 2025 3M Open on Sunday, July 27, 2025.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/3m-5.jpg" data-caption="Rickie Fowler walks past a young fan dressed in Fowler&#x27;s signature orange outfit at the 2025 3M Open on Sunday, July 27, 2025.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/3m-6.jpg" data-caption="Jake Knapp tees off at the 2025 3M Open on Sunday, July 27, 2025.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/3m-7.jpg" data-caption="">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/3m-8.jpg" data-caption="">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/3m-9.jpg" data-caption="Rickie Fowler, surrounded by fans, prepares for a fairway shot on the 14th hole at the 2025 3M Open on Sunday, July 27, 2025.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/3m-10.jpg" data-caption="">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/3m-11.jpg" data-caption="">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/3m-12.jpg" data-caption="">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+    </ul>
+
+    <!-- ============ PEOPLE (17 photos) ============ -->
+    <ul id="gallery-people" class="grid" data-gallery="people" aria-label="People" hidden>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/people-1.jpg" data-caption="Mahtomedi High School senior Keira Redpath trains at Larkin Dance Studio in Maplewood, Minn., where she has trained since age 3, days before moving to the University of Southern California to join the highly selective Glorya Kaufman School of Dance.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/people-2.jpg" data-caption="Mahtomedi High School senior Keira Redpath trains at Larkin Dance Studio in Maplewood, Minn., where she has trained since age 3, days before moving to the University of Southern California to join the highly selective Glorya Kaufman School of Dance.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/people-3.jpg" data-caption="University of Maryland freshman architecture major Owen Vento practices his acoustic bass guitar in his dorm room on Feb. 13, 2025.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/people-4.jpg" data-caption="Owen Vento plays his bass guitar in the School of Architecture, Planning and Preservation building during sunrise on Feb. 13, 2025.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/people-5.jpg" data-caption="Ivan Martinez, owner of By Mr. Martinez, a custom tailoring shop in downtown St. Paul, sits in his shop on June 30, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/people-6.jpg" data-caption="Laney Zuver, left, and Ellie Struewing read from the archive collection at Quatrefoil Library in Minneapolis on Sunday, June 21, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/people-7.jpg" data-caption="A man performs on the street in Georgetown on Saturday, April 5, 2025.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/people-8.jpg" data-caption="Buddhist monks stand near the Franklin Delano Roosevelt Memorial in Washington, D.C., during peak bloom of the National Cherry Blossom Festival on Saturday, March 29, 2025.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/people-9.jpg" data-caption="A group of friends in downtown Washington, D.C., celebrates a friend&#x27;s birthday on Friday, Feb. 21, 2025.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/people-10.jpg" data-orientation="vertical" data-caption="A man walks through Freedom Plaza in downtown Washington, D.C., on Saturday, March 8, 2025.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/people-11.jpg" data-caption="A mother wipes her son&#x27;s nose during peak bloom of the National Cherry Blossom Festival in Washington, D.C., on Saturday, March 29, 2025.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/people-12.jpg" data-caption="A child tries to eat a cherry blossom tree petal during peak bloom of the National Cherry Blossom Festival in Washington, D.C., on Saturday, March 29, 2025.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/people-13.jpg" data-caption="Two people stand in front of the Tidal Basin in Washington, D.C., during peak bloom of the cherry blossoms on March 19, 2026.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/people-14.jpg" data-caption="A couple stands against the Washington Monument, facing away from the sunset and looking toward a child jumping on ground lights on Saturday, March 8, 2025.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/people-15.jpg" data-orientation="vertical" data-caption="A man smokes a cigarette at a bus stop in Washington, D.C., on March 8, 2025.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/people-16.jpg" data-caption="The owner of The Newsroom in Washington, D.C.&#x27;s Dupont Circle neighborhood sits behind the register on March 8, 2025.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+        <li class="tile-item">
+          <button class="tile" type="button" data-src="images2/people-17.jpg" data-caption="A child talks with Hugo Fire Chief Jim Compton Jr. during a family event at the fire station on July 22, 2025.">
+            <img src="" alt="" hidden>
+          </button>
+        </li>
+    </ul>
+    <!-- ============ ABOUT & CONTACT ============ -->
+    <section id="gallery-about" class="about" data-gallery="about" aria-label="About and contact" hidden>
+
+      <div class="about-photo">
+        <figure class="headshot">
+          <img src="images/headshot.jpg" alt="Portrait of Tyler Quattrin">
+        </figure>
+
+        <div class="about-contact-info">
+          <h3>Email</h3>
+          <p><a class="text-link" href="mailto:tylerquattrin@gmail.com">tylerquattrin@gmail.com</a></p>
+
+          <h3>Elsewhere</h3>
+          <ul class="contact-social">
+            <li>
+              <a href="https://www.instagram.com/tylerquattrin.media/" target="_blank" rel="noopener">
+                <svg viewBox="15 15 34 34" width="20" height="20" aria-hidden="true">
+                  <rect x="17" y="17" width="30" height="30" rx="8" fill="none" stroke="currentColor" stroke-width="2.7"/>
+                  <circle cx="32" cy="32" r="7" fill="none" stroke="currentColor" stroke-width="2.7"/>
+                  <circle cx="40" cy="24" r="1.8" fill="currentColor"/>
+                </svg>
+                <span>Instagram</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/tylerquattrin" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+                  <path fill="currentColor" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14zM8.34 18.34v-8.5H5.5v8.5h2.84zM6.92 8.68a1.65 1.65 0 1 0 0-3.3 1.65 1.65 0 0 0 0 3.3zM18.5 18.34v-4.66c0-2.28-1.22-3.34-2.84-3.34-1.31 0-1.9.72-2.22 1.23V9.84H10.6c.04.8 0 8.5 0 8.5h2.84v-4.75c0-.25.02-.5.09-.69.2-.5.67-1.03 1.45-1.03 1.02 0 1.43.78 1.43 1.92v4.55h2.09z"/>
+                </svg>
+                <span>LinkedIn</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://x.com/tylerquattrin" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true">
+                  <path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+                <span>X (Twitter)</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bio">
+        <h2>About</h2>
+        <p>Tyler Quattrin is a student at the University of Maryland’s Philip Merrill College of Journalism, pursuing a degree in journalism with minors in public policy and law and society.</p>
+        <p>He is a staff writer for The Diamondback, UMD’s independent student newspaper, where he has covered the College Park City Council and Student Government Association. A Twin Cities, Minnesota, native, Quattrin has also interned with the St. Paul Pioneer Press and Press Publications in White Bear Lake.</p>
+        <p>He has experience telling stories across multiple formats, including print and web writing, photojournalism, and natural-sound video. His reporting mostly includes coverage of local government, crime and courts, business and civil unrest. His photography has been featured in galleries in Minneapolis.</p>
+      </div>
+
+      <div class="contact-form-wrap">
+        <h2>Contact</h2>
+
+        <!--
+          The form is sent by FormSubmit (formsubmit.co), a free service that emails
+          each message to the address in the URL below. The first time anyone submits,
+          FormSubmit sends a one-time confirmation email to that address; click the
+          link in it to turn the form on.
+        -->
+        <form id="contactForm" class="contact-form" action="https://formsubmit.co/tylerquattrin@gmail.com" method="POST">
+          <div class="field">
+            <label for="cf-name">Name</label>
+            <input id="cf-name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="cf-email">Email</label>
+            <input id="cf-email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="cf-message">Message</label>
+            <textarea id="cf-message" name="message" rows="6" required></textarea>
+          </div>
+
+          <!-- spam trap: real visitors never see or fill this in -->
+          <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <input type="hidden" name="_subject" value="New message from your portfolio site">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="false">
+
+          <div class="form-actions">
+            <button type="submit" class="btn" id="contactSubmit">Send message</button>
+            <p id="contactStatus" class="form-status" role="status" aria-live="polite"></p>
+          </div>
+        </form>
+      </div>
+
+    </section>
+
+  </main>
+
+</div>
+
+<!-- ===== ENLARGED PHOTO VIEWER ===== -->
+<div id="viewer" class="viewer" role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
+  <button class="viewer-close" id="viewerClose" aria-label="Close">&times;</button>
+  <button class="viewer-nav viewer-prev" id="viewerPrev" aria-label="Previous photo">&#8249;</button>
+  <button class="viewer-nav viewer-next" id="viewerNext" aria-label="Next photo">&#8250;</button>
+
+  <figure class="viewer-figure">
+    <div class="viewer-media" id="viewerMedia"></div>
+    <figcaption id="viewerCaption"></figcaption>
+    <div class="viewer-count" id="viewerCount"></div>
+  </figure>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
